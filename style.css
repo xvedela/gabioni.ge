@@ -56,4 +56,90 @@ nav ul li a {
 .row {
   display: flex;
   height: 88%;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+
+p {
+  color: #fff;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+
+.card1 {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(img/337001817_244990527927290_7463801857987150634_n.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card2 {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(img/337035978_871681207262827_1320604685250915100_n.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card3 {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(img/337225202_599195088557149_7855821174558851415_n.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.card4 {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(img/337054719_584706130390275_75899833648689096_n.jpg);
+  background-position: center;
+  background-size: cover;
 }
