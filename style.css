@@ -2,3 +2,29 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+/* Default styles for logo */
+.logo {
+    display: block;
+    margin: 0 40px 0px;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  /* Hover styles for desktop */
+  @media only screen and (min-width: 768px) {
+    .logo:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  /* Responsive styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    .logo {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  }
