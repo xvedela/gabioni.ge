@@ -5,6 +5,8 @@
 }
 
 
+
+
 .container {
   width: 100%;
   height: 100vh;
@@ -87,8 +89,8 @@ button {
   margin-top: 30px;
 }
 
-.card1 {
-  width: 200px;
+.card {
+  width: 220px;
   height: 230px;
   display: inline-block;
   border-radius: 10px;
@@ -99,47 +101,27 @@ button {
   background-image: url(img/337001817_244990527927290_7463801857987150634_n.jpg);
   background-position: center;
   background-size: cover;
+  transition: transform 0.5s;
 }
 
 .card2 {
-  width: 200px;
-  height: 230px;
-  display: inline-block;
-  border-radius: 10px;
-  padding: 15px 25px;
-  box-sizing: border-box;
-  cursor: pointer;
-  margin: 10px 15px;
+
   background-image: url(img/337035978_871681207262827_1320604685250915100_n.jpg);
-  background-position: center;
-  background-size: cover;
+
 }
 
 .card3 {
-  width: 200px;
-  height: 230px;
-  display: inline-block;
-  border-radius: 10px;
-  padding: 15px 25px;
-  box-sizing: border-box;
-  cursor: pointer;
-  margin: 10px 15px;
+ 
   background-image: url(img/337225202_599195088557149_7855821174558851415_n.jpg);
-  background-position: center;
-  background-size: cover;
+
 }
 
 
 .card4 {
-  width: 200px;
-  height: 230px;
-  display: inline-block;
-  border-radius: 10px;
-  padding: 15px 25px;
-  box-sizing: border-box;
-  cursor: pointer;
-  margin: 10px 15px;
+ 
   background-image: url(img/337054719_584706130390275_75899833648689096_n.jpg);
-  background-position: center;
-  background-size: cover;
+}
+
+.card:hover {
+  transform: translateY(-10px);
 }
