@@ -104,6 +104,7 @@ button {
   transition: transform 0.5s;
 }
 
+
 .card2 {
 
   background-image: url(img/337035978_871681207262827_1320604685250915100_n.jpg);
@@ -124,4 +125,27 @@ button {
 
 .card:hover {
   transform: translateY(-10px);
+}
+
+
+.row .col h2.geo {
+  color: green;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+
+.row .col h2.eng {
+  color: green;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.row .col h2.rus {
+  color: green;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 30px;
 }
