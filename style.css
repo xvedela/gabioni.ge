@@ -64,6 +64,10 @@ nav ul li a {
 
 .col {
   flex-basis: 50%;
+  width: 80%;
+  text-align: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
@@ -139,11 +143,12 @@ p {
   margin-top: 30px;
 }
 
-
-
-
-
-
+.row .col h2.phone {
+color: green;
+font-size: 20px;
+font-weight: normal;
+margin-top: 40px;
+}
 
 
 #modal-container {
@@ -180,9 +185,8 @@ p {
 
 
 .main-info h3 {
-  margin-left: 350px;
-  margin-top: 40px;
-
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
 
@@ -200,3 +204,4 @@ button {
 button:hover {
   background-color: lightblue;
 }
+
