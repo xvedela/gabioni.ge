@@ -62,10 +62,8 @@ nav ul li a {
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .col {
-    flex-basis: 100%;
-  }
+.col {
+  flex-basis: 50%;
 }
 
 h1 {
